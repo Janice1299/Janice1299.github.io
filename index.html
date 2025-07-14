@@ -11,109 +11,309 @@
 
 <body>
 
-    <header
-        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <div class="col-md-3 mb-2 mb-md-0"> <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-                <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
-                    <use xlink:href="#bootstrap">Mama Thai</use>
-                </svg> </a> </div>
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2">Features</a></li>
-            <li><a href="#" class="nav-link px-2">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2">Reservation</a></li>
-            <li><a href="#" class="nav-link px-2">About</a></li>
-        </ul>
-        <div class="col-md-3 text-end"> <button type="button" class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary">Sign-up</button>
-        </div>
-    </header>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="https://cdn-icons-png.flaticon.com/128/16004/16004476.png" alt="Logo 1" class="bi me-2"
+                    width="50" height="50">
+                <img src="https://cdn-icons-png.flaticon.com/128/16004/16004663.png" alt="Logo 2" class="bi me-2"
+                    width="50" height="50">
+                <img src="https://cdn-icons-png.flaticon.com/128/16004/16004514.png" alt="Logo 3" class="bi me-2"
+                    width="50" height="50">
+                <img src="https://cdn-icons-png.flaticon.com/128/16004/16004637.png" alt="Logo 4" class="bi me-2"
+                    width="50" height="50">
+                <img src="https://cdn-icons-png.flaticon.com/128/16004/16004663.png" alt="Logo 5" class="bi me-2"
+                    width="50" height="50">
 
-    <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4"
-            src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-        <h1 class="display-5 fw-bold text-body-emphasis" Walcome to Mama Thai</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                    world’s
-                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
-                    system,
-                    extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
-                        class="btn btn-primary btn-lg px-4 gap-3" fdprocessedid="pdhx8l">Primary button</button> <button
-                        type="button" class="btn btn-outline-secondary btn-lg px-4"
-                        fdprocessedid="xlm2d">Secondary</button>
-                </div>
-            </div>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="about.html" class="nav-link active" aria-current="page">ABOUT US</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">MENU</a></li>
+                <li class="nav-item"><a href="reservation.html" class="nav-link">RESERVATION</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </header>
     </div>
 
-    <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Columns with icons</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em" aria-hidden="true">
-                        <use xlink:href="#collection"></use>
-                    </svg>
+    <main>
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
+                    class="" aria-label="Slide 1"></button> <button type="button" data-bs-target="#myCarousel"
+                    data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button> <button
+                    type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class=""></button> </div>
+            <div class="carousel-inner">
+                <div class="carousel-item"> <img src="assets/noodles-7241213_1280.jpg" alt="Taste Of Wellness"
+                        aria-hidden="true" class="bd-placeholder-img" height="100%" preserveAspectRatio="xMidYMid slice"
+                        width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Taste Of Wellness</h1>
+                            <p class="opacity-75">Nice Hotpot, specializing in the culture of healthy dining, is a
+                                wellness restaurant that has established 100 branched across Singapore.</p>
+                            <p><a class="btn btn-lg btn-primary" href="about.html">MORE INFO</a></p>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi" aria-hidden="true">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg> </a>
+                <div class="carousel-item active"> <img src="assets/spaghetti-1932466_1280.jpg"
+                        alt="Eat Green, Be Healthy" aria-hidden="true" class="bd-placeholder-img" height="100%"
+                        preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Eat Green, Be Healthy</h1>
+                            <p>We base our cuisine on natural ingredients and advocate for a diet that's rich in
+                                vegetables and light on meat.</p>
+                            <p><a class="btn btn-lg btn-primary" href="about.html">FIND OUT MORE</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item"> <img src="assets/spaghetti-9182962_1280.jpg" alt="Signature Dishes"
+                        aria-hidden="true" class="bd-placeholder-img " height="100%"
+                        preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Signature Dishes</h1>
+                            <p>Craving something delicious? Look no further! Dive into our menu featuring mouthwatering
+                                delights like our renowned Bolognese.</p>
+                            <p><a class="btn btn-lg btn-primary" href="menu.html">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                    class="visually-hidden">Previous</span> </button> <button class="carousel-control-next"
+                type="button" data-bs-target="#myCarousel" data-bs-slide="next"> <span
+                    class="carousel-control-next-icon" aria-hidden="true"></span> <span
+                    class="visually-hidden">Next</span> </button>
+        </div>
+    </main>
+
+
+
+    <div class="container marketing"><!-- START THE FEATURETTES -->
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span
+                        class="text-body-secondary">See for yourself.</span></h2>
+                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
+                    this layout would work with some actual real-world content in place.</p>
             </div>
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em" aria-hidden="true">
-                        <use xlink:href="#people-circle"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi" aria-hidden="true">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg> </a>
-            </div>
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em" aria-hidden="true">
-                        <use xlink:href="#toggles2"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi" aria-hidden="true">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg> </a>
+
+            <div class="col-md-5 order-md-1"> <img src="assets/pasta-3712161_1280.jpg" aria-label="Placeholder: 500x500"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
+                    preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+                </svg>
             </div>
         </div>
+
+        <hr class="featurette-divider"> <!-- /END THE FEATURETTES -->
     </div>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center"> <a href="/"
-                class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg
-                    class="bi" width="30" height="24" aria-hidden="true">
-                    <use xlink:href="#bootstrap"></use>
-                </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24"
-                        height="24" aria-hidden="true">
-                        <use xlink:href="#instagram"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24"
-                        height="24">
-                        <use xlink:href="#facebook"></use>
-                    </svg></a></li>
-        </ul>
-    </footer>
+
+
+    <div class="container px-4 py-5" id="custom-cards">
+
+
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines
+                    </h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+
+                        <small>Pakistan</small> </li>
+                        <li class="d-flex align-items-center"> <img src="assets/pasta-6696236_1280.jpg" alt="pasta"
+                                class="bi me-2" width="32" height="32" role="img" aria-label="Duration">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140"
+                preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </svg>
+            <h2 class="fw-normal">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">address</font>
+                </font>
+            </h2>
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Always remember that a computer does not possess
+                        intelligence, but rather acquires artificial intelligence through three main functional
+                        elements: the ability to analyze, the ability to compose, and logical reasoning.</font>
+                </font>
+            </p>
+            <p><a class="btn btn-secondary" href="#">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">View details</font>
+                    </font>
+                </a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140"
+                preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </svg>
+            <h2 class="fw-normal">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Another address</font>
+                </font>
+            </h2>
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">If we were to use a smart computer to process the Arabic
+                        language, we would face a significant challenge, especially since our language is characterized
+                        by the coherence and interconnectedness of its systems. However, artificial intelligence enables
+                        us to obtain four types of processing: phonetic processing, morphological processing, syntactic
+                        processing, and semantic processing.</font>
+                </font>
+            </p>
+            <p><a class="btn btn-secondary" href="#">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">View details</font>
+                    </font>
+                </a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140"
+                preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+            </svg>
+            <h2 class="fw-normal">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Third address to confirm the information</font>
+                </font>
+            </h2>
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Thanks to artificial intelligence research and technologies,
+                        we have been able to move from the physical to the logical. This transition has had a positive
+                        impact on how people interact with their living languages, which means it should have a positive
+                        impact on how we interact with our Arabic language.</font>
+                </font>
+            </p>
+            <p><a class="btn btn-secondary" href="#">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">View details</font>
+                    </font>
+                </a></p>
+        </div><!-- /.col-lg-4 -->
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top ">
+                </div>
+                <div class="col-6 col-md-2 mb-3 ">
+                    <h5>ABOUT US</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Introduction</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">History</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>MENU</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Starters</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pasta
+                                Courses</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mains</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Desserts</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Post-Dinner</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>RESERVATION</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>CONTACT</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex align-items-center"> <a href="/"
+                            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                            <img src="https://cdn-icons-png.flaticon.com/128/16004/16004476.png" alt="Logo 1"
+                                class="bi me-2" width="50" height="50">
+                            <img src="https://cdn-icons-png.flaticon.com/128/16004/16004663.png" alt="Logo 2"
+                                class="bi me-2" width="50" height="50">
+                            <img src="https://cdn-icons-png.flaticon.com/128/16004/16004514.png" alt="Logo 3"
+                                class="bi me-2" width="50" height="50">
+                            <img src="https://cdn-icons-png.flaticon.com/128/16004/16004637.png" alt="Logo 4"
+                                class="bi me-2" width="50" height="50">
+                            <img src="https://cdn-icons-png.flaticon.com/128/16004/16004663.png" alt="Logo 5"
+                                class="bi me-2" width="50" height="50">
+
+                        </a><svg class="bi" width="30" height="24" aria-hidden="true">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© PASTA Singapore 2025</span>
+                    </div>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi"
+                                    width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#instagram"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi"
+                                    width="24" height="24">
+                                    <use xlink:href="#facebook"></use>
+                                </svg></a></li>
+                    </ul>
+                </footer>
+            </div>
+        </footer>
+    </div>
+
+
 
 
 
